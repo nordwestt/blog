@@ -4,4 +4,4 @@
 - List element 1
 - List element 2
 
-Click here to get to the [[about]] page. 
+Click [here](/about) to get to the about page. 
