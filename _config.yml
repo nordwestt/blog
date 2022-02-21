@@ -16,3 +16,10 @@ version:          0.1
 
 github:
   repo:           nordwestt.github.io
+
+plugins:
+  - jekyll-gist
+  - jekyll-paginate
+
+whitelist:
+  - jekyll-gist

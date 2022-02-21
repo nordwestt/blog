@@ -65,7 +65,7 @@ html {
     top: 0;
     left: 0;
     bottom: 0;
-    width: 18rem;
+    width: 22rem;
     text-align: left;
   }
 }
@@ -154,14 +154,14 @@ a.sidebar-nav-item:focus {
     right: 0;
   }
   .layout-reverse .content {
-    margin-left: 2rem;
+    margin-left: 20rem;
     margin-right: 20rem;
   }
 }
 
 @media (min-width: 64em) {
   .layout-reverse .content {
-    margin-left: 4rem;
+    margin-left: 22rem;
     margin-right: 22rem;
   }
 }
