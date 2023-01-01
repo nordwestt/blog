@@ -1,0 +1,33 @@
+#content {
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#navbarContent{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.code-block {
+    position: relative;
+}
+
+.code-button {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.background {
+    position:  absolute;
+    display:  block;
+    top: 0;
+    left: 0;
+    z-index: -1;
+} 
