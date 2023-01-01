@@ -25,9 +25,11 @@ html, body {
 }
 
 .background {
+    background-image: url('/images/jameswebb2.png');
     position:  absolute;
     display:  block;
     top: 0;
     left: 0;
     z-index: -1;
+    filter: blur(4px);
 } 

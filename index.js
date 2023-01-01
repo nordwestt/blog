@@ -1,3 +1,5 @@
+var current_page = '';
+
 let posts = ['Website','Linux'];
 
 var converter = new showdown.Converter();
@@ -38,37 +40,32 @@ async function copyCode(block, button) {
     }, 700);
 }
 
-async function loadMarkdownPage(url){
+async function loadPage(url){
+    if(url==current_page) return;
+    let filetype = url.split('.').at(-1);
+
+    current_page = url;
     let res = await fetch(url); 
-    let md = await res.text();
-    let html = converter.makeHtml(md);
+    let html = await res.text();
+
+    if(filetype=='md') {
+        html = converter.makeHtml(html);
+    }
+
     $("#content").empty();
     $("#content").append(html);
     hljs.highlightAll();
     setupCodeCopy();
 }
 
-async function showPosts(){
-    let ul = document.createElement("div");
-    ul.className = "list-group";
-    for(let post of posts){
-        let li = document.createElement("button");
-        li.type = "button";
-        li.className = "list-group-item list-group-item-action";
-        li.onclick = () => loadMarkdownPage("posts/"+post+".md");
-        li.innerText = post;
-        ul.appendChild(li);
-    }
-    $("#posts").append(ul);
-}
-showPosts();
-//loadMarkdownPage("posts/website.md")
-
 window.onload = function() {
     Particles.init({
         selector: '.background',
         connectParticles : true,
         speed : 0.3,
-        minDistance : 170
+        minDistance : 170,
+        color : "F0F00F"
     });
 };
+
+loadPage('/pages/home.html');
