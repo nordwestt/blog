@@ -1,11 +1,14 @@
+{
+let posts = [
+    {name:'Website', description:'How I built this website', img:'/images/web.jpg'},
+    {name:'Linux', description:'My journey into Linux', img:'/images/penguin.jpg'}
+];
 
 function createCard(imgSrc, title, text){
     let card = $('<div>', {class:"card"});
-
     let img = $('<img>', {class:"card-img-top", src:`${imgSrc}`});
     img.css('object-fit','cover');
     img.css('height','200px');
-
 
     let body = $('<div>', {class:"card-body"});
 
@@ -21,18 +24,14 @@ function createCard(imgSrc, title, text){
     return card;
 }
 
-
-
 async function showPosts(){
-
-    let cols = 2;
 
     let container = $("<div>",{class:"row row-cols-1 row-cols-md-3 g-4"});
     
     for(let post of posts){
         let col = $('<div>', {class:"col"});
-        let card = createCard("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ffthmb.tqn.com%2F2XA95C1P0Bd_NKIHrGnNJpmeHtk%3D%2F1280x1024%2Ffilters%3Afill(auto%2C1)%2Flinux-573e3f5f5f9b58723dace939.jpg&f=1&nofb=1&ipt=a3fc822e3298b5886bbf5c04a50d675a21e0019c43dd9565010e1994ff0f25c7&ipo=images",post, "DSJAOIJDSAOIDJSA:JDLSANDLSKJAN");
-        card.click(() => loadPage("/posts/"+post+".md"));
+        let card = createCard(post.img, post.name, post.description);
+        card.click(() => loadPage("/posts/"+post.name+".md"));
         card.css("cursor","pointer");
         col.append(card);
         container.append(col);
@@ -41,3 +40,4 @@ async function showPosts(){
 }
 
 showPosts();
+}

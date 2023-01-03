@@ -1,6 +1,6 @@
 var current_page = '';
 
-let posts = ['Website','Linux'];
+
 
 var converter = new showdown.Converter();
 
