@@ -9,7 +9,6 @@ async function setupCodeCopy(){
 
     // use a class selector if available
     let blocks = document.querySelectorAll("pre");
-    console.log({blocks});
 
     blocks.forEach((block) => {
         block.className = "code-block";

@@ -14,7 +14,6 @@ async function loadPs(){
     let paragraphTexts = [];
 
     for(let paragraph of paragraphs){
-        console.log(paragraph);
         paragraphTexts.push(paragraph.innerText);
         paragraph.innerHTML = "";
     }
