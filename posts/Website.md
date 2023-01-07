@@ -30,4 +30,10 @@ async function loadMarkdownPage(url){
 }
 ```
 
+To get it working, a few steps are required: 
+1. Copy the function into your page
+2. Add JQuery to your page
+3. Create a div with an ID of 'content'
+4. Instantiate the showdown converter using: var converter = new showdown.Converter();
+
 
