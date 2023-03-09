@@ -33,3 +33,25 @@ html, body {
     z-index: -1;
     filter: blur(4px);
 } 
+
+@font-face {
+    font-family:"CaesarDressing";
+    src: url("CaesarDressing-Regular.ttf") /* EOT file for IE */
+}
+
+#logo{
+    font-family:'CaesarDressing';
+    font-size: 38px;
+    background-image: linear-gradient(to left, rgb(37, 70, 255), rgb(0, 234, 255), rgb(1, 182, 1), yellow, orange, red);   -webkit-background-clip: text;
+    color: transparent;
+}
+
+.nav-link.menu-thing {
+    cursor: pointer;
+    font-size: 26px;
+}
+
+.nav-link.menu-thing:hover {
+    cursor: pointer;
+    color:yellow;
+}
