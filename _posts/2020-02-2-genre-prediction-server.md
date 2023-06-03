@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "GenreClassification"
+title:  "Genre Classification"
 author: thomas
 categories: [ MachineLearning ]
 tags: [ NeuralNetwork ]
