@@ -11,10 +11,27 @@ date: 2022-05-16
 toc: true
 ---
 
-Our team was given the task of creating an open day badge for the university. From discussion, we team settled upon the concept of an e-ink, battery-powered, wearable badge with app-connectivity.
+# Smart Badge for University Open Day
+
+Young people usually visit universities to find scout the places and see what their potential future university life might look like. 
+For this reason, presenting them with work actually produced as a result of the degree could serve as a really helpful display of what they can expect to work with and produce.
+
+## The Vision 🌟
+
+Our team prototyped an open day badge for prospective students. The badge aims to be engaging and useful, whilst demonstrating the skills acquired throughout our degree. 
+Equipped with an e-ink screen, microcontroller and batteries, this wearable badge connects with a custom-designed app to allow users to draw, write and upload pictures to it to show off.
+
+## How Does It Work? 🤔
+
+The mobile app converts the user's creation (text, drawing or picture) into a bitmap, which is transmitted to the badge over bluetooth. 
+The badge then communicates with the e-ink display to make the creation appear on it. 
+
+## Why This Solution? 🚀
+
+
+
 Through iterative development, we team arrived at a functional prototype which met the minimum specifications laid out in the first semester. Lastly, extra functionality was added, to improve the appeal of the product.
 
-## Requirements
 
 The description given was purposefully open to interpretation, allowing freedom of choice
 and the team’s creative input, with the primary project requirement that an open day
