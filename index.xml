@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+      <title>🪴 NordWestT</title>
+      <link>https://quartz.jzhao.xyz</link>
+      <description>Last 10 notes on 🪴 NordWestT</description>
+      <generator>Quartz -- quartz.jzhao.xyz</generator>
+      <item>
+    <title>Welcome to a corner of the internet</title>
+    <link>https://quartz.jzhao.xyz/</link>
+    <guid>https://quartz.jzhao.xyz/</guid>
+    <description>Breathe. have a glass of water. and take a look around, see if there’s anything of interest There’s not much here at the moment, but I’m always working on something in my sparetime and I plan to write freely about it for those curious enough to read.</description>
+    <pubDate>Wed, 12 Feb 2025 15:31:12 GMT</pubDate>
+  </item><item>
+    <title>Genre Classification</title>
+    <link>https://quartz.jzhao.xyz/University/Genre-classification</link>
+    <guid>https://quartz.jzhao.xyz/University/Genre-classification</guid>
+    <description>...</description>
+    <pubDate>Sun, 16 Apr 2023 00:00:00 GMT</pubDate>
+  </item><item>
+    <title>Open Day Badge</title>
+    <link>https://quartz.jzhao.xyz/University/Open-day-badge</link>
+    <guid>https://quartz.jzhao.xyz/University/Open-day-badge</guid>
+    <description>...</description>
+    <pubDate>Mon, 16 May 2022 00:00:00 GMT</pubDate>
+  </item><item>
+    <title>Rest Player (a ChatGPT plugin)</title>
+    <link>https://quartz.jzhao.xyz/University/ChatGPT-Music-Player-plugin</link>
+    <guid>https://quartz.jzhao.xyz/University/ChatGPT-Music-Player-plugin</guid>
+    <description> Rest Player A restful music player, allowing songs to be queued and played through HTTP calls. Can be used as a ChatGPT plugin Description Currently only compatible with Linux, this player makes use of the Python yt-dlp package to search for and stream songs from YouTube.</description>
+    <pubDate>Thu, 10 Mar 2022 00:00:00 GMT</pubDate>
+  </item><item>
+    <title>AR navigation for cyclists</title>
+    <link>https://quartz.jzhao.xyz/University/Sonic-AR-navigation-for-cyclists</link>
+    <guid>https://quartz.jzhao.xyz/University/Sonic-AR-navigation-for-cyclists</guid>
+    <description> Augmented Reality for Cyclists: A New Navigation Experience 🚴‍♂️ As a cyclist, one is much more exposed than other modes of transport. For this reason, navigating busy streets while keeping an eye on the road can be dangerous challenge.</description>
+    <pubDate>Thu, 10 Mar 2022 00:00:00 GMT</pubDate>
+  </item>
+    </channel>
+  </rss>
