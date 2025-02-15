@@ -6,10 +6,28 @@
       <description>Last 10 notes on 🪴 NordWestT</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Welcome to a corner of the internet</title>
+    <title>Compass</title>
+    <link>https://quartz.jzhao.xyz/Side-projects/Compass</link>
+    <guid>https://quartz.jzhao.xyz/Side-projects/Compass</guid>
+    <description>...</description>
+    <pubDate>Wed, 12 Feb 2025 20:12:00 GMT</pubDate>
+  </item><item>
+    <title>Kokoro wyoming text-to-speech</title>
+    <link>https://quartz.jzhao.xyz/Home-Assistant/Kokoro-wyoming-text-to-speech</link>
+    <guid>https://quartz.jzhao.xyz/Home-Assistant/Kokoro-wyoming-text-to-speech</guid>
+    <description>I’ve fallen into the habit of staring at the ‘models’ page of huggingface like a hawk scanning the landscape for potential prey. One day, I came across one of the lightest TTS models I’ve seen called Kokoro-82M.</description>
+    <pubDate>Wed, 12 Feb 2025 20:06:49 GMT</pubDate>
+  </item><item>
+    <title>Radiooooo download button</title>
+    <link>https://quartz.jzhao.xyz/Side-projects/Radiooooo-download-button</link>
+    <guid>https://quartz.jzhao.xyz/Side-projects/Radiooooo-download-button</guid>
+    <description> I’ve discovered a lot of gems on Radiooooo and have many times wished I could save them. This Chrome extension allows for exactly that by adding a download button next to the ‘play’ and ‘skip’ buttons.</description>
+    <pubDate>Wed, 12 Feb 2025 19:49:43 GMT</pubDate>
+  </item><item>
+    <title>🌐 Welcome to a corner of the internet</title>
     <link>https://quartz.jzhao.xyz/</link>
     <guid>https://quartz.jzhao.xyz/</guid>
-    <description>Breathe. have a glass of water. and take a look around, see if there’s anything of interest There’s not much here at the moment, but I’m always working on something in my sparetime and I plan to write freely about it for those curious enough to read.</description>
+    <description>Breathe. have a glass of water. and take a look around, see if there’s anything of interest There’s not much here at the moment, but I’m always working on something in my spare time and I plan to write freely about it for those curious enough to read.</description>
     <pubDate>Wed, 12 Feb 2025 15:31:12 GMT</pubDate>
   </item><item>
     <title>Genre Classification</title>
